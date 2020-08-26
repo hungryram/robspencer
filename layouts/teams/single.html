@@ -12,7 +12,7 @@
           </div>
           <div class="box">
             <div class="columns">
-              <div class="column is-5">
+              <div class="column is-5 has-text-centered">
                 <img src="{{ .Params.details.agent_photo }}" alt="{{ .Params.title }} {{ .Site.Data.profile.primary_company_name }}">
               </div>
               <div class="column is-7">
@@ -135,19 +135,23 @@
             </div>
             <div class="columns">
               <div class="column">
+                {{ if .Params.details.languages }}
                 <ul class="agent-additional">
                   <li><i class="far fa-comment"></i><strong>Language:</strong></li>
                 {{ range .Params.details.languages }}
                   <li class="accent-boxes" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">{{ . }}</li>
                 {{ end }}
                 </ul>
+                {{ end }}
 
+                {{ if .Params.details.specialty }}
                 <ul class="agent-additional">
                   <li><i class="far fa-star"></i><strong>Specialties:</strong></li>
                 {{ range .Params.details.specialty }}
                   <li class="accent-boxes" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">{{ . }}</li>
                 {{ end }}
                 </ul>
+                {{ end }}
               </div>
             </div>
             <div class="columns">
