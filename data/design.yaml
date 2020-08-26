@@ -38,16 +38,16 @@ home_sections:
   add_photo: "/uploads/lgoo.jpg"
 - template: featured-tiles
   top_left_tile:
-    top_left_featured_image: "/uploads/contact-hungry-ram.jpg"
-    top_left_featured_title: Contact Me
+    top_left_featured_image: "/uploads/office.jpg"
+    top_left_featured_title: Contact Our Office
     top_left_link_to_property: "/contact"
   bottom_left_tile:
-    featured_title: Blog
-    featured_image: "/uploads/luxkitchen.jpg"
-    bottom_left_link_to_property: "/blog"
+    featured_title: Meet the Team
+    featured_image: "/uploads/team.jpg"
+    bottom_left_link_to_property: "/team"
   right_tile:
     featured_title: Listings
-    featured_image: "/uploads/derek-thomson-p50hcc0yrl0-unsplash.jpg"
+    featured_image: "/uploads/newluxurykitchen.jpg"
     right_link_to_property: "/listings"
   tile_background_color: ''
 sub_pages:
