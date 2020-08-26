@@ -3,8 +3,11 @@ languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
 name = "Our Team"
-parent = "About"
-url = "/teams"
+url = "/team"
+weight = 5
+[[menu.main]]
+name = "About"
+url = "/about"
 weight = 3
 [[menu.main]]
 name = "Home"
@@ -15,12 +18,9 @@ name = "Listings"
 url = "/listings"
 weight = 2
 [[menu.main]]
-name = "About"
-weight = 4
-[[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 5
+weight = 4
 [taxonomies]
 category = "categories"
 city = "city"
