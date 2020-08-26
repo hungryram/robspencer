@@ -1,0 +1,80 @@
+---
+logo_or_title:
+  upload_logo: "/uploads/cropped-logotrans.png"
+  title: Real Estate Sample
+  favicon: ''
+main_image:
+  hero_subtitle: Find your dream home
+  home_background_image: "/uploads/shutterstock_683283169.jpg"
+  video_background: true
+  upload_video: ''
+  add_url_to_youtube_video: pY2CWYxUbrM
+  hero_title: OUR LUXURY REAL ESTATE
+  align_hero_text: has-text-centered
+  add_a_button:
+    hero_button_text: VIEW LISTINGS
+    hero_button_link: "/listings"
+    open_in_new_tab: false
+    hero_button_text_color: "#000000"
+    hero_button_bg_color: "#ffffff"
+  add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/ocean.mp4
+  add_youtube_background_video: false
+home_sections:
+- template: intro
+  intro_title: Discover Our Finest Homes
+  intro_body: Each section of the home page can be arranged and customized through
+    your phone or computer. Easily manage your website through our website editor
+    customized specifically for real estate professionals.
+  intro_align_text: has-text-left
+  intro_background_color: "#FFFFFF"
+  intro_add_button:
+    button_label: Learn more
+    intro_button_link: "/contact"
+    intro_open_in_a_new_tab: false
+    intro_button_background_color: "#464646"
+    intro_button_text_color: "#E2E2E2"
+  intro_enable_white_text_color: false
+  add_photo: "/uploads/agent-4.jpg"
+- template: featured-tiles
+  top_left_tile:
+    top_left_featured_image: "/uploads/contact-hungry-ram.jpg"
+    top_left_featured_title: Contact Me
+    top_left_link_to_property: "/contact"
+  bottom_left_tile:
+    featured_title: Blog
+    featured_image: "/uploads/luxkitchen.jpg"
+    bottom_left_link_to_property: "/blog"
+  right_tile:
+    featured_title: Listings
+    featured_image: "/uploads/derek-thomson-p50hcc0yrl0-unsplash.jpg"
+    right_link_to_property: "/listings"
+  tile_background_color: ''
+- template: featured-blog
+  blog_align_title_text: has-text-centered
+  blog_title: Our Latest Posts
+  blog_subtitle: View our latest posts for useful information
+  blog_background: "#FFFFFF"
+  blog_enable_white_text_color: false
+sub_pages:
+  sub_page_image: "/uploads/main.jpg"
+footer:
+  footer_background: "#000000"
+  footer_bio: The footer can be adjusted to the color you need. Use a background image
+    or background color of your choice. Contact me for a full demo.
+  disable_background_color: true
+  footer_background_image: "/uploads/shutterstock_43273009.jpg"
+  enable_black_text: false
+colors:
+  text_link_colors: rgb(169, 140, 83)
+  button_background_colors: "#A98C53"
+  header_background_color: "#0B1723"
+  navigation_link_color: "#BA0000"
+  enable_black_menu_items: false
+  top_bar_background: "#707985"
+  top_bar_enable_black_text_color: false
+upload_image: ''
+slideshow:
+  slideshow_home:
+  - "/uploads/luxkitchen-1.jpg"
+  - "/uploads/main-1.jpg"
+  - "/uploads/newluxbackyard.jpg"

@@ -1,0 +1,14 @@
+<div class="card" style="margin: 10px; height: 100%;">
+    <a href="{{ .Permalink }}">
+    <div class="listing-image-container">
+        <div class="card-content listing-bg" style="background: url({{ if .Params.featured_image }}{{ .Params.featured_image }}{{else}}https://www.hungryram.com/uploads/nophotohouse.jpg{{ end }});height: 30vh;position:relative;background-size:cover">
+    </div>
+  </div>
+    <footer class="card-footer">
+      <div class="card-content">
+        <h2 class="subtitle is-5">{{ .Title }}</h2>
+        <p class="blog-summary">{{ .Summary }}</p><a href="{{ .Permalink }}" class="secondary-btn">Read More</a>
+      </div>
+    </footer>
+  </a>
+  </div>
