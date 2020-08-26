@@ -76,4 +76,5 @@ fields:
   template: url
   label: URL
 pages:
+- content/testimonials/ariley.md
 - content/testimonials/shelby-nicole-bryan.md
