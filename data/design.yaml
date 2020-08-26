@@ -1,15 +1,15 @@
 ---
 logo_or_title:
-  upload_logo: "/uploads/cropped-logotrans.png"
-  title: Real Estate Sample
-  favicon: ''
+  upload_logo: "/uploads/lgoo.jpg"
+  title: Upstage Team
+  favicon: "/uploads/favicon.jpg"
 main_image:
-  hero_subtitle: Find your dream home
+  hero_subtitle: Let us help you find your dream home
   home_background_image: "/uploads/shutterstock_683283169.jpg"
   video_background: true
   upload_video: ''
   add_url_to_youtube_video: pY2CWYxUbrM
-  hero_title: OUR LUXURY REAL ESTATE
+  hero_title: Upstage Real Estate Team
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: VIEW LISTINGS
@@ -21,10 +21,11 @@ main_image:
   add_youtube_background_video: false
 home_sections:
 - template: intro
-  intro_title: Discover Our Finest Homes
-  intro_body: Each section of the home page can be arranged and customized through
-    your phone or computer. Easily manage your website through our website editor
-    customized specifically for real estate professionals.
+  intro_title: Rob Spencer
+  intro_body: As the Principal Broker/Owner of Upstage Real Estate, it is my pleasure
+    to serve both buyers and sellers in the largest, and possibly most challenging
+    transaction of their lives. I've learned the value of hard work and promise to
+    give the families I work with the very best of my attention and care.
   intro_align_text: has-text-left
   intro_background_color: "#FFFFFF"
   intro_add_button:
@@ -34,7 +35,7 @@ home_sections:
     intro_button_background_color: "#464646"
     intro_button_text_color: "#E2E2E2"
   intro_enable_white_text_color: false
-  add_photo: "/uploads/agent-4.jpg"
+  add_photo: "/uploads/lgoo.jpg"
 - template: featured-tiles
   top_left_tile:
     top_left_featured_image: "/uploads/contact-hungry-ram.jpg"
@@ -49,32 +50,25 @@ home_sections:
     featured_image: "/uploads/derek-thomson-p50hcc0yrl0-unsplash.jpg"
     right_link_to_property: "/listings"
   tile_background_color: ''
-- template: featured-blog
-  blog_align_title_text: has-text-centered
-  blog_title: Our Latest Posts
-  blog_subtitle: View our latest posts for useful information
-  blog_background: "#FFFFFF"
-  blog_enable_white_text_color: false
 sub_pages:
   sub_page_image: "/uploads/main.jpg"
 footer:
   footer_background: "#000000"
-  footer_bio: The footer can be adjusted to the color you need. Use a background image
-    or background color of your choice. Contact me for a full demo.
+  footer_bio: Executive Broker/Team Leader of the Upstage Team @ HTHREG Jonesboro,
+    AR. Whether you're looking to buy or sell, please give us the chance to earn your
+    trust.
   disable_background_color: true
-  footer_background_image: "/uploads/shutterstock_43273009.jpg"
+  footer_background_image: "/uploads/main.jpg"
   enable_black_text: false
 colors:
-  text_link_colors: rgb(169, 140, 83)
-  button_background_colors: "#A98C53"
-  header_background_color: "#0B1723"
+  text_link_colors: rgb(49, 143, 179)
+  button_background_colors: "#318FB3"
+  header_background_color: "#000000"
   navigation_link_color: "#BA0000"
   enable_black_menu_items: false
-  top_bar_background: "#707985"
+  top_bar_background: "#318FB3"
   top_bar_enable_black_text_color: false
 upload_image: ''
 slideshow:
   slideshow_home:
-  - "/uploads/luxkitchen-1.jpg"
-  - "/uploads/main-1.jpg"
-  - "/uploads/newluxbackyard.jpg"
+  - "/uploads/kichen.jpg"
