@@ -1,4 +1,4 @@
-baseURL = "https://upstagerealestate.netlify.app"
+baseURL = "https://www.upstagerealestate.com"
 languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
