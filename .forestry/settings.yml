@@ -62,7 +62,6 @@ sections:
 - type: document
   path: data/pageconfig.yaml
   label: SEO
-  match: "**/*"
 - type: heading
   label: Blog
 - type: directory
