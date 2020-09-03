@@ -4,6 +4,7 @@ url = ""
 [search_engine_optimization]
 meta_description = "Learn more why Upstage Real Estate Team is the best in the Arkansas area."
 meta_title = "About - Upstage Real Estate Team"
+title_tag = "Learn More About Upstage Real Estate"
 
 +++
 As the Principal Broker of Upstage Real Estate, it is my pleasure to serve both buyers and sellers in the largest, and possibly most challenging transaction of their lives. I've learned the value of hard work and promise to give the families I work with the very best I can.   
