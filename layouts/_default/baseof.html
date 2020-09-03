@@ -6,7 +6,7 @@
         <div class="container">
             <div class="columns has-text-centered">
                 <div class="column">
-                    <h2 class="title is-3">{{ .Title }}</h2>
+                    <h2 class="title is-3">{{ replace .Name "-" " " | title }}</h2>
                 </div>
             </div>
         </div>
