@@ -59,6 +59,10 @@ sections:
   label: Add/View Pages
   create: documents
   match: "*"
+- type: document
+  path: data/pageconfig.yaml
+  label: SEO
+  match: "**/*"
 - type: heading
   label: Blog
 - type: directory
