@@ -9,11 +9,11 @@
           </div>
         <div class="columns">
           {{ partial "search.html" . }}
-            <div class="column is-8 ascend">
+            <div class="column is-8">
               <div class="tabs is-centered">
                 <ul>
+                  <li><a href="/featured">Featured</a></li>
                   <li><a href="/listings">All Listings({{ len ( where $.Site.RegularPages "Type" "listings") }})</a></li>
-                    <li><a href="/featured">Featured</a></li>
                     {{ range $name, $taxonomy := .Site.Taxonomies.status }}
                   <li>
                     <a href="/status/{{ $name | urlize }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
@@ -25,7 +25,7 @@
               </div>
 
                 <div class="columns is-multiline">
-                {{ $paginator := .Paginate (where .Pages "Type" "listings") 6 }}
+                {{ $paginator := .Paginate (where .Pages "Type" "listings") 10 }}
                 {{ range $paginator.Pages.ByWeight }}
                     <div class="column is-6">   
                         {{ partial "featured-listings.html" . }}         

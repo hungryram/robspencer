@@ -25,7 +25,7 @@
               </div>
 
                 <div class="columns is-multiline">
-                {{ $paginator := .Paginate (where .Pages "Type" "listings") 6 }}
+                {{ $paginator := .Paginate (where .Pages "Type" "listings") 10 }}
                 {{ range $paginator.Pages.ByWeight }}
                     <div class="column is-6">   
                         {{ partial "featured-listings.html" . }}         

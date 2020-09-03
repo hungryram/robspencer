@@ -212,9 +212,12 @@ i.fab.fa-instagram {
     color: #be0303;
 }
 
-p,
-li,
-a {
+body p,
+body li,
+body a,
+.content p,
+.content a,
+.content li{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
@@ -976,11 +979,6 @@ p.blog-summary a {
 .agent-list-content small {
     color: #bfbfbf;
     font-size: 14px;
-}
-
-.agent-list-content .content h1 {
-    font-size: 20px;
-    margin: 0;
 }
 
 .agent-list-contact,

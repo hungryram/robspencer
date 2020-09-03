@@ -47,13 +47,13 @@
         
                         {{ if gt ( len .Params.source_link )  0 }}
                             {{ if gt ( len .Params.source_label )  0 }}
-                                <a href="{{ .Params.source_link }}" target="_blank">{{.Params.source_label  }}</a><br>
+                                <a href="{{ .Params.source_link }}" target="_blank" class="secondary-btn">{{.Params.source_label  }}</a><br>
                             {{end}}
                         {{end}}
         
                         {{ if gt ( len .Params.external_link )  0 }}
                             {{ if gt ( len .Params.link_label )  0 }}
-                                <a href="{{ .Params.external_link }}" target="_blank">{{.Params.link_label  }}</a><br>
+                                <a href="{{ .Params.external_link }}" target="_blank" class="secondary-btn">{{.Params.link_label  }}</a><br>
                             {{end}}
                         {{end}}
                     </div>
