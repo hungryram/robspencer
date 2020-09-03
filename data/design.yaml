@@ -44,7 +44,7 @@ home_sections:
   bottom_left_tile:
     featured_title: Meet the Team
     featured_image: "/uploads/team.jpg"
-    bottom_left_link_to_property: "/teams"
+    bottom_left_link_to_property: "/our-team"
   right_tile:
     featured_title: Listings
     featured_image: "/uploads/newluxurykitchen.jpg"
