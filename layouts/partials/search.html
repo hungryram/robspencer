@@ -1,10 +1,10 @@
-<div class="column">
+<div class="column filter-sidebar">
     <div class="box">
       <h2 class="subtitle is-6">Filter City</h2>
         <ul>
             {{ range $city, $taxonomy := .Site.Taxonomies.city }}
           <li>
-            <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/city{{ $city | urlize | relURL }}" class="secondary-btn">{{ $city | humanize }} ({{ $taxonomy.Count }})</a>
+            <a href="/city{{ $city | urlize | relURL }}" class="secondary-btn">{{ $city | humanize }} ({{ $taxonomy.Count }})</a>
           </li>
           {{end}}
   
@@ -15,10 +15,9 @@
         <ul>
             {{ range $state, $taxonomy := .Site.Taxonomies.state }}
           <li>
-            <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/state{{ $state | urlize | relURL }}" class="secondary-btn">{{ $state | humanize }} ({{ $taxonomy.Count }})</a>
+            <a href="/state{{ $state | urlize | relURL }}" class="secondary-btn">{{ $state | humanize }} ({{ $taxonomy.Count }})</a>
           </li>
           {{end}}
-  
         </ul>
     </div>
     <div class="box">
@@ -26,22 +25,59 @@
         <ul>
             {{ range $zip, $taxonomy := .Site.Taxonomies.zip }}
           <li>
-            <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/zip{{ $zip | urlize | relURL }}" class="secondary-btn">{{ $zip }} ({{ $taxonomy.Count }})</a>
+            <a href="/zip{{ $zip | urlize | relURL }}" class="secondary-btn">{{ $zip }} ({{ $taxonomy.Count }})</a>
           </li>
           {{end}}
-  
         </ul>
     </div>
     <div class="box">
-        <h2 class="subtitle is-6">Search by Property Type</h2>
+        <h2 class="subtitle is-6">Filter Property Type</h2>
           <ul>
               {{ range $prop, $taxonomy := .Site.Taxonomies.property }}
             <li>
-              <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/property{{ $prop | urlize | relURL }}" class="secondary-btn" style="text-transform:capitalize">{{ $prop }} ({{ $taxonomy.Count }})</a>
+              <a href="/property{{ $prop | urlize | relURL }}" class="secondary-btn" style="text-transform:capitalize">{{ $prop }} ({{ $taxonomy.Count }})</a>
             </li>
             {{end}}
-    
           </ul>
       </div>
   </div>
-  
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h2 class="subtitle is-6">Filter City</h2>
+    <ul>
+        {{ range $city, $taxonomy := .Site.Taxonomies.city }}
+      <li>
+        <a href="/city{{ $city | urlize | relURL }}" class="secondary-btn">{{ $city | humanize }} ({{ $taxonomy.Count }})</a>
+      </li>
+      {{end}}
+    </ul>
+    <h2 class="subtitle is-6">Filter State</h2>
+    <ul>
+        {{ range $state, $taxonomy := .Site.Taxonomies.state }}
+      <li>
+        <a href="/state{{ $state | urlize | relURL }}" class="secondary-btn">{{ $state | humanize }} ({{ $taxonomy.Count }})</a>
+      </li>
+      {{end}}
+    </ul>
+    <h2 class="subtitle is-6">Filter Zip Code</h2>
+    <ul>
+        {{ range $zip, $taxonomy := .Site.Taxonomies.zip }}
+      <li>
+        <a href="/zip{{ $zip | urlize | relURL }}" class="secondary-btn">{{ $zip }} ({{ $taxonomy.Count }})</a>
+      </li>
+      {{end}}
+    </ul>
+    <h2 class="subtitle is-6">Filter Property Type</h2>
+    <ul>
+        {{ range $prop, $taxonomy := .Site.Taxonomies.property }}
+      <li>
+        <a href="/property{{ $prop | urlize | relURL }}" class="secondary-btn" style="text-transform:capitalize">{{ $prop }} ({{ $taxonomy.Count }})</a>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+
+<div class="box mobile-filter">
+  <span style="font-size:13px;cursor:pointer" onclick="openNav()">&#9776; Filter Search</span>
+</div>
