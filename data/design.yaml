@@ -46,9 +46,9 @@ home_sections:
     featured_image: "/uploads/team.jpg"
     bottom_left_link_to_property: "/our-team"
   right_tile:
-    featured_title: Listings
+    featured_title: About
     featured_image: "/uploads/newluxurykitchen.jpg"
-    right_link_to_property: "/listings"
+    right_link_to_property: "/about"
   tile_background_color: ''
 - template: testimonial-slider
   testimonial_slider_title: Our Client Reviews
